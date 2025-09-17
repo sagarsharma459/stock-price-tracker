@@ -2,6 +2,7 @@ import yfinance as yf
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+from streamlit_autorefresh import st_autorefresh
 import pytz
 
 # --- Streamlit Config ---
@@ -13,7 +14,7 @@ st.title("📈 Live Stock Price Tracker")
 ticker = st.text_input("Enter NSE Ticker (e.g., RELIANCE.NS, IRCTC.NS):", "IRCTC.NS")
 
 # Auto-refresh every 10 seconds
-st_autorefresh = st.experimental_autorefresh(interval=10 * 1000, limit=None)
+st_autorefresh = st_autorefresh(interval=10 * 1000, limit=None)
 
 # Placeholder for price, time, and chart
 price_placeholder = st.empty()
