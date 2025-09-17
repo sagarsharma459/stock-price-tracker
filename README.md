@@ -14,10 +14,10 @@ This project fetches live stock prices using the Yahoo Finance API and displays 
 - CSV for data storage
 
 ## Live Demo
-[See it here]([https://your-app.streamlit.app](https://stock-price-tracker-xhldvgnr8fgeewlbmlj3f6.streamlit.app)
+[See it here](https://stock-price-tracker-xhldvgnr8fgeewlbmlj3f6.streamlit.app)
 
 ## Run Locally
-1. `git clone https://github.com/yourusername/stock-price-tracker.git`
+1. `git clone https://github.com/sagarsharma459/stock-price-tracker.git`
 2. `pip install -r requirements.txt`
 3. `streamlit run streamlit_app.py`
 
